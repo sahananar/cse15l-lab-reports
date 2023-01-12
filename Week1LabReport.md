@@ -1,8 +1,8 @@
-# This tutorial will describe how to log onto an account on `ieng6` and run some basic commands
+# This tutorial will describe how to log onto an account on `ieng6` from your own device and run some basic commands
 
 **The first step is to install Visual Studio Code**
 
-To install VScode, I first used this link: [Download VScode](https://code.visualstudio.com/). You would need to follow the instructions to download the application onto your computer and follow the specific download link depending on your operating system. Once you have installed the application, open it up. It should look similar to this:
+To install VScode, first use this link: [Download VScode](https://code.visualstudio.com/). You would need to follow the instructions to download the application onto your computer and follow the specific download link depending on your operating system. Once you have installed the application, open it up. It should look similar to this:
 
 ![Image](https://raw.githubusercontent.com/sahananar/cse15l-lab-reports/main/Screen%20Shot%202023-01-12%20at%2010.29.22%20AM.png)
 
