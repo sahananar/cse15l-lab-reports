@@ -10,7 +10,7 @@ Trying out the Markdown syntax:
 
 Trying link:
 
-[Link](http://google.com)
+[Google](http://google.com)
 
 Trying image:
 
