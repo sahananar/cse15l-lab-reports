@@ -2,7 +2,7 @@
 
 **The first step is to install Visual Studio Code**
 
-To install VScode, first go to this link: [Download VScode](https://code.visualstudio.com/). Follow the instructions to download the application onto your computer and follow the specific download link depending on your operating system. Once you have installed the application, open it up. It should look similar to this:
+To install VScode, I first used this link: [Download VScode](https://code.visualstudio.com/). You would need to follow the instructions to download the application onto your computer and follow the specific download link depending on your operating system. Once you have installed the application, open it up. It should look similar to this:
 
 ![Image](https://raw.githubusercontent.com/sahananar/cse15l-lab-reports/main/Screen%20Shot%202023-01-12%20at%2010.29.22%20AM.png)
 
@@ -25,9 +25,13 @@ Now, you are successfully logged in and are remotely connected to a computer in 
 These commands can be tried on your own computer, using your built in terminal, or can be run on the remote server, in the VScode terminal after you log in using `ssh`. Here are a few commands to try out:
 
 `pwd` - this will show your location in the current directory
+
 `cd` - this is used to change your directory
+
 `ls - a` - this is used to show hidden files
+
 `ls - lat` - this will display a list of files that are sorted by time
+
 `cat/home/linux/ieng6/cs15lwi23/public/hello.txt` - this uses the filepath of the hello.txt file and the cat command to print the contents of 'hello.txt', which will display the message, 'Hello! Welcome to CSE 15L', as shown in the screenshot below:
 
 ![Image](https://raw.githubusercontent.com/sahananar/cse15l-lab-reports/main/Screen%20Shot%202023-01-12%20at%2011.45.19%20AM.png)
