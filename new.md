@@ -12,7 +12,7 @@ Trying link:
 
 Trying image:
 
-![Image]([http://url/a.png](https://bloximages.newyork1.vip.townnews.com/sandiegomagazine.com/content/tncms/assets/v3/editorial/7/a0/7a036583-82c4-56c4-9401-7bae826ed6cd/5e18a5a3dd0f1.image.jpg))
+![Image](https://upload.wikimedia.org/wikipedia/commons/4/44/Geisel_Library%2C_UCSD.jpg)
 
 > Blockquote
 
