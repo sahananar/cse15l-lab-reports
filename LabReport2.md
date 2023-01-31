@@ -22,7 +22,39 @@ The bug I chose was from the reversed method in ArrayExamples.java, with the JUn
 
 `assertArrayEquals(new int[]{6, 5, 4}, ArrayExamples.reversed(new int[]{4, 5, 6}));`
 
-A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
-An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
-The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
-The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+Here was an input that did not produce a failure, as it was testing an empty array:
+
+`assertArrayEquals(new int[]{ }, ArrayExamples.reversed(new int[] {}));`
+
+The symptom we see is that the second JUnit test fails as it saw a different output than what was expected at the first position of the output array:
+
+![Image](https://raw.githubusercontent.com/sahananar/cse15l-lab-reports/main/Screen%20Shot%202023-01-30%20at%207.56.16%20PM.png)
+
+This was the code used before, which caused the bugs:
+
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i -1];
+    }
+    return newArray;
+  }
+```
+
+The change that needed to be made here was switching the order of `arr` and `newArr` in the line inside the for loop. This code was mistakenly changing the contents of `arr` and returning the new array, when it should be modifying the new array itself. Then, the new array will be keeping track of the elements from the input array in reverse order, and we can return this. 
+
+This is the code after:
+
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArr[i] = arr[arr.length - i -1];
+    }
+    return newArray;
+  }
+```
+## Part 3
+
+From Week 2's lab, I learned how to implement a basic web server. Before, I had seen the localhost url's but didn't know how to interact with them, but in Week 2's lab, I learned how to start the server and use the URLHandler interface to keep track of the changes added to the urls. I also learned how it was not necessary to return to the code or the terminal to do this, as the new string could just be modified in the search bar and browser itself and this change would reflect on the page, whether it was a number being incremented or a string being concantenated. This kind of web server implementation could have several more complex applications, like being used to implement a basic game where parameters are taken in and messages are displayed accordingly. 
