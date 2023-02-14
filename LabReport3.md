@@ -44,4 +44,42 @@ Output 2:
 
 Sources used: I found [this link](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/) through a web search about different grep commands. 
   
-## Example 3
+## Example 3:
+  
+The `grep -c` command. If you use this command along with a string and a filename, it will count how many matches of that string there are within the file. 
+
+Input 1:
+```
+grep -c "beach" written_2/travel_guides/berlitz2/Cancun-WhereToGo.txt
+```
+Output 1:
+`17`
+
+Input 2:
+```
+grep -c "island" written_2/travel_guides/berlitz1/IntroGreek.txt
+```
+Output 2: 
+`22`
+
+Sources used: I found [this link](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/) through a web search about different grep commands. 
+  
+## Example 4:
+  
+The `grep -v -c` command, which is the opposite of the command used in example 3. If you use this command along with a string and a filename, it will count how many lines in the file do not contain that specific string. 
+
+Input 1:
+```
+grep -c "beach" written_2/travel_guides/berlitz2/Cancun-WhereToGo.txt
+```
+Output 1:
+`108`
+
+Input 2:
+```
+grep -c "island" written_2/travel_guides/berlitz1/IntroGreek.txt
+```
+Output 2: 
+`104`
+
+Sources used: I found [this link](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/) through a web search about different grep commands. 
