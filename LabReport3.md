@@ -1,8 +1,8 @@
 # Lab Report 3 - Researching Commands
 
-## Examples using the 'grep' command
+## Example 1:
 
-1. The 'grep -r' command, which you can use to get all of the filenames in a directory which contain a certain string as well as the lines in each file containg that specific string. For these examples, I was in the skill-demo1-data directory and written_2 was inside. 
+The 'grep -r' command, which you can use to get all of the filenames in a directory which contain a certain string as well as the lines in each file containg that specific string. For these examples, I was in the skill-demo1-data directory and written_2 was inside. 
 
 Input 1:
 ```
@@ -20,4 +20,27 @@ Output 2 (there were several more lines that were outputted, this screenshot sho
 
 ![Image](https://raw.githubusercontent.com/sahananar/cse15l-lab-reports/main/Screen%20Shot%202023-02-13%20at%208.08.39%20PM.png)
 
-2. The grep
+Sources used: I asked Chat GPT for how to search for a specific string among multiple files in a directory. 
+
+## Example 2:
+
+The `grep` - A/B/C commands. For the first example, I used 'grep -A', which 
+
+Input 1:
+```
+grep -A 1 "Italy" written_2/travel_guides/berlitz1/WhatToItaly.txt
+```
+Output 1:
+
+![Image](https://raw.githubusercontent.com/sahananar/cse15l-lab-reports/main/Screen%20Shot%202023-02-13%20at%208.36.38%20PM.png)
+
+Input 2:
+```
+grep -C 2 "Italy" written_2/travel_guides/berlitz1/WhatToItaly.txt
+```
+Output 2: 
+
+![Image](https://raw.githubusercontent.com/sahananar/cse15l-lab-reports/main/Screen%20Shot%202023-02-13%20at%208.36.57%20PM.png)
+
+
+
