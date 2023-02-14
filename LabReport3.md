@@ -24,7 +24,7 @@ Sources used: I asked Chat GPT for how to search for a specific string among mul
 
 ## Example 2:
 
-The `grep -A <N>` and `grep -C <N>` commands. For the first example, I used 'grep -A', which 
+The `grep -A <N>` and `grep -C <N>` commands. For the first example, I used 'grep -A <N>', which will print the line in the file which contains the given string, along with N lines that follow the match. For the second example, I used 'grep -C <N>', which will show the matching line as well as N number of lines surrounding the matching line. 
 
 Input 1:
 ```
@@ -42,5 +42,4 @@ Output 2:
 
 ![Image](https://raw.githubusercontent.com/sahananar/cse15l-lab-reports/main/Screen%20Shot%202023-02-13%20at%208.36.57%20PM.png)
 
-Sources used: I this [Link](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/) through a web search about different grep commands. 
-
+Sources used: I found [this link](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/) through a web search about different grep commands. 
