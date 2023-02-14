@@ -43,3 +43,5 @@ Output 2:
 ![Image](https://raw.githubusercontent.com/sahananar/cse15l-lab-reports/main/Screen%20Shot%202023-02-13%20at%208.36.57%20PM.png)
 
 Sources used: I found [this link](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/) through a web search about different grep commands. 
+  
+## Example 3
