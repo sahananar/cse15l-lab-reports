@@ -11,9 +11,10 @@ grep -r "Italy" written_2
 Output 1 (there were several more lines that were outputted, this screenshot shows the first few filenames)
 
 ```
-written_2/non-fiction/OUP/Castro/chP.txt:The word piñata derives from the verb apiñar, which means to cram, tie, or join together. 
-In Italy pignattas were hung from the ceilings during masquerade balls. It is accepted that there is an oriental influence, 
-since piñatas are always decorated with colorful crepe paper. It is thought piñatas originated in China and were brought to 
+written_2/non-fiction/OUP/Castro/chP.txt:The word piñata derives from the verb apiñar, which means to 
+cram, tie, or join together. In Italy pignattas were hung from the ceilings during masquerade balls. 
+It is accepted that there is an oriental influence, since piñatas are always decorated with colorful 
+crepe paper. It is thought piñatas originated in China and were brought to 
 Sicily and Spain by the Arabs and to New Spain by the Spaniards.
 ```
 
