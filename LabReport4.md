@@ -15,7 +15,7 @@ Screenshot:
 
 **Step 6**
 
-Keys used: <up><up><up><enter>, <up><up><up><enter>
+Keys used: `<up><up><up><enter>`, `<up><up><up><enter>`
 The commands for the JUnit tests were in the search history, so I used the up arrow keys to access each of them. 
 
 Screenshot:
