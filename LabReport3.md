@@ -8,7 +8,7 @@ Input 1:
 ```
 grep -r "Italy" written_2
 ```
-Output 1 (there were several more lines that were outputted, this screenshot shows the first few filenames)
+Output 1 - There were several more lines that were outputted, this code block shows just the first results. The lines were intentionally spaced this way so that the code block would not get cut off. 
 
 ```
 written_2/non-fiction/OUP/Castro/chP.txt:The word piñata derives from the verb apiñar, which means to 
@@ -22,9 +22,16 @@ Input 2:
 ```
 grep -r "magnificent" written_2/travel_guides
 ```
-Output 2 (there were several more lines that were outputted, this screenshot shows the first few filenames)
+Output 2 -
 
-![Image](https://raw.githubusercontent.com/sahananar/cse15l-lab-reports/main/Screen%20Shot%202023-02-13%20at%208.08.39%20PM.png)
+```
+written_2/travel_guides/berlitz1/HandRMadrid.txt: near the Royal Palace, occupies a magnificent palace and converted
+written_2/travel_guides/berlitz1/HistoryEgypt.txt: history of Egypt ruled for over 60 years and supervised magnificent
+written_2/travel_guides/berlitz1/HistoryEgypt.txt: magnificent Abu Simbel. Some scholars now postulate that Ramses II was
+written_2/travel_guides/berlitz1/HistoryGreek.txt: settlements of Thira and Akrotiri thrived at this time. The magnificent
+written_2/travel_guides/berlitz1/HistoryIndia.txt: east–west trade and so were able to finance the magnificently sculpted
+...
+```
 
 Sources used: I asked Chat GPT for how to search for a specific string among multiple files in a directory. 
 
