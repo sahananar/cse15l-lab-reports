@@ -45,7 +45,19 @@ grep -A 1 "Italy" written_2/travel_guides/berlitz1/WhatToItaly.txt
 ```
 Output 1:
 
-![Image](https://raw.githubusercontent.com/sahananar/cse15l-lab-reports/main/Screen%20Shot%202023-02-13%20at%208.36.38%20PM.png)
+```
+day when Italy is involved in a major international football match,
+        streets all over the country are deserted — until the cars come out
+
+round-Italy Giro d’Italia in June. You can watch world championship
+        skiing at Cortina d’Ampezzo and Val Gardena. Bocce, the bowling game
+
+Motor racing fans can watch the Grand Prix of Italy at
+        Monza, near Milan, or at Imola, near Bologna.
+
+clothing. You can rent horses for riding throughout Italy — Tuscany and
+        Umbria provide especially scenic terrain.
+```
 
 Input 2:
 ```
@@ -53,7 +65,24 @@ grep -C 2 "Italy" written_2/travel_guides/berlitz1/WhatToItaly.txt
 ```
 Output 2: 
 
-![Image](https://raw.githubusercontent.com/sahananar/cse15l-lab-reports/main/Screen%20Shot%202023-02-13%20at%208.36.57%20PM.png)
+```
+  Witness the crowd’s unashamedly chauvinistic partisanship at
+        Rome’s international open tennis championships or the Davis Cup. On a
+        day when Italy is involved in a major international football match,
+        streets all over the country are deserted — until the cars come out
+        honking for a frenetic victory parade or the men shuffle on foot to the
+--
+        Naples.
+        Cycling races are still popular — especially the
+        round-Italy Giro d’Italia in June. You can watch world championship
+        skiing at Cortina d’Ampezzo and Val Gardena. Bocce, the bowling game
+        similar to French boules or pétanque, is played in small towns wherever
+        there’s a patch of tree-shaded sand or gravel and a bar close enough at
+        hand to serve a glass of wine or grappa.
+        Motor racing fans can watch the Grand Prix of Italy at
+        Monza, near Milan, or at Imola, near Bologna.
+        On the beaches of the Adriatic coast, the Italian Riviera,
+```
 
 Sources used: I found [this link](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/) through a web search about different grep commands. 
   
