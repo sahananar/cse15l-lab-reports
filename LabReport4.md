@@ -25,11 +25,15 @@ The commands for the JUnit tests were in the search history, so I used the up ar
 
 Screenshot:
   
+![Image](https://raw.githubusercontent.com/sahananar/cse15l-lab-reports/main/Screen%20Shot%202023-02-27%20at%206.42.17%20PM.png)
+  
 **Step 7**
 
 The issue with the code is that it doesn't consider the case where both lists have overlapping elements, in that case it will end up running infinitely, which is why the second test timed out. Using the `vim` command and the insert function, I changed this part of the code. 
 
 Screenshot:
+  
+![Image](https://raw.githubusercontent.com/sahananar/cse15l-lab-reports/main/Screen%20Shot%202023-02-27%20at%2010.37.47%20PM.png)
   
 **Step 8**
 
