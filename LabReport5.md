@@ -43,3 +43,5 @@ grep -c "beach" written_2/travel_guides/berlitz2/Cancun-WhereToGo.txt
 ```
 Output:
 `108`
+
+Overall, I was especially interested by the `grep` command, because it has a lot of different functions and can be used with other characters to get a wide variety of different ouputs. It makes parsing through files and getting the desired information very effficient as it quickly does the tasks when used with the correct commands. 
